@@ -7,16 +7,25 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Sample Site</title>
+    <title>サンプルサイト</title>
 </head>
 
 <body>
+    
 $(function(){
     $('document').ready(function() {
         var options = { videoId: 'https://youtu.be/Dw0sp81Su6E'};
         $('#container').tubular(options);
     });
 });
+    <p id="video-controls" class="black-65">
+  Video controls:<br />
+  <a href="#" class="tubular-play">Play</a> | 
+  <a href="#" class="tubular-pause">Pause</a> | 
+  <a href="#" class="tubular-volume-up">Volume Up</a> | 
+  <a href="#" class="tubular-volume-down">Volume Down</a> | 
+  <a href="#" class="tubular-mute">Mute</a>
+</p>
     
   <div id="container">
 
@@ -49,14 +58,7 @@ $(function(){
       <section>
 
         <article>
-<p id="video-controls" class="black-65">
-  Video controls:<br />
-  <a href="#" class="tubular-play">Play</a> | 
-  <a href="#" class="tubular-pause">Pause</a> | 
-  <a href="#" class="tubular-volume-up">Volume Up</a> | 
-  <a href="#" class="tubular-volume-down">Volume Down</a> | 
-  <a href="#" class="tubular-mute">Mute</a>
-</p>
+        特になし
         </article>
 
         <article>
